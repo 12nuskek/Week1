@@ -57,4 +57,15 @@ section {
 
 .container{
     display: flex;
+    justify-content: center;
+}
+
+.item{
+    padding: 20px;
+
+}
+
+.p{
+    flex-direction: column;
+
 }
