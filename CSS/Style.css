@@ -2,70 +2,41 @@
     font-family: Arial, Helvetica, sans-serif;
   
 }
-body {
-    margin: 0px;
+body{
+    background-image: url( '/img/mountain-background.svg' );
+    
+    background-size: cover;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 25px;
+
+
 }
 
 nav{
-    background-color: rgb(79, 138, 221);
-    display: flex;
-    justify-content: flex-end;
-}
-
-
-nav #topMenu{
-    margin: 0px 80px 0px 80px ;
-    background-color: rgb(79, 138, 221);
-    display: flex;
-
 
 }
+
 nav ul{
+    display: flex;
     list-style-type: none;
-}
-
-#topMenu{
-    display: flex;
-    color: white;
-}
-
-#topMenu li {
-    padding: 5px;
-    background-color: rgb(39, 34, 170);
-    height: fit-content;
-    margin: 5px;
-    border-radius: 5px;
+    margin: 0px;
 
 }
-
-#topMenu li:hover {
-    background-color: rgb(11, 3, 54);
-  }
-
-.submenu{
-    display:none;
-    padding-left: 0%;
+nav li{
+    padding: 0px 25px 0px 25px;
 }
 
-#select1:hover > .submenu{
-    display:block;
-}
+#join {
+    border-radius: 25px;
+    color: pink;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
-section {
-    padding: 0% 20% 0% 20%;
-}
-
-.container{
-    display: flex;
-    justify-content: center;
-}
-
-.item{
-    padding: 20px;
-
-}
-
-.p{
-    flex-direction: column;
 
 }
