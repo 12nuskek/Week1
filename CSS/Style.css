@@ -10,14 +10,14 @@ header{
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 25px;
-
-
+    align-items: center;
 }
 body{
     margin: 0px;
 }
 
 nav{
+    color: gray;
 
 }
 
@@ -25,7 +25,7 @@ nav ul{
     display: flex;
     list-style-type: none;
     margin: 0px;
-
+    align-items: center;
 }
 nav li{
     padding: 0px 25px 0px 25px;
@@ -33,8 +33,10 @@ nav li{
 
 #join {
     border-radius: 25px;
-    color: pink;
+    color: rgb(232, 93, 116);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+    padding: 05px 20px 05px 20px;
 
 
 }
@@ -42,6 +44,43 @@ nav li{
 #sectionOne{
         background-image: url( '/img/mountain-background.svg' );
         background-size: cover;
-        min-height: 1000px;
  
+}
+
+.container{
+    display: flex;
+}
+
+.title {
+    flex-direction: column;
+    margin: 100px 0px 100px 0px;
+    align-items: center;
+}
+
+.title p{
+    color: rgb(179, 174, 174);
+    font-size: medium;
+}
+
+.title h1{
+    font-size: xxx-large;
+    margin-bottom: 10px;
+}
+.title button{
+    background-color: white;
+    border-radius: 25px;
+    border:0px ;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+    color: blue;
+
+}
+
+.socials{
+    margin-top: 250px;
+    margin-left: 10%;
+    padding-bottom: 150px;
+}
+.socials div{
+  padding: 20px;  
 }
