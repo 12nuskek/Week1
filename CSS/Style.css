@@ -84,3 +84,20 @@ nav li{
 .socials div{
   padding: 20px;  
 }
+
+.divider{
+
+        padding: 50px;
+        background-color: aquamarine;
+    }
+
+.explainer{
+    background-color: rgb(56, 170, 132);
+    justify-content: center;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.info{
+    margin-left: 10%;
+}
