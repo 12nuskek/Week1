@@ -101,3 +101,14 @@ nav li{
 .info{
     margin-left: 10%;
 }
+
+#journey-text{
+    flex-direction: column;
+    align-items: center;
+    
+}
+#journey-text p{
+    word-wrap: break-word;
+    width: 600px;
+    font-size: small;
+}
