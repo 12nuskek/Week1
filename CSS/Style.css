@@ -42,7 +42,7 @@ nav li{
 }
 
 #sectionOne{
-        background-image: url( '/img/mountain-background.svg' );
+        background-image: url( '../img/mountain-background.svg' );
         background-size: cover;
  
 }
