@@ -1,6 +1,6 @@
 * {  
     font-family: Arial, Helvetica, sans-serif;
-  
+    
 }
 
 
@@ -9,7 +9,7 @@ header{
     justify-content: space-between;
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 25px;
+    padding-top: 25px;
     align-items: center;
 }
 body{
@@ -31,15 +31,7 @@ nav li{
     padding: 0px 25px 0px 25px;
 }
 
-#join {
-    border-radius: 25px;
-    color: rgb(232, 93, 116);
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    background-color: white;
-    padding: 05px 20px 05px 20px;
 
-
-}
 
 #sectionOne{
         background-image: url( '../img/mountain-background.svg' );
@@ -72,8 +64,10 @@ nav li{
     border:0px ;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding: 10px;
-    color: blue;
-
+    color: rgb(0, 0, 0);
+    font-size: small;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .socials{
@@ -112,3 +106,73 @@ nav li{
     width: 600px;
     font-size: small;
 }
+
+  .btn {
+    box-sizing: border-box;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background-color: transparent;
+    border: 2px solid #e74c3c;
+    border-radius: 0.6em;
+    color: #e74c3c;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+            align-self: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    margin: 20px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+  }
+  .btn:hover, .btn:focus {
+    color: #fff;
+    outline: 0;
+  }
+
+  
+
+
+.join {
+    border-color: #f1c40f;
+    color: rgb(0, 0, 0);
+    background-image: -webkit-linear-gradient(45deg, #f1c40f 50%, transparent 50%);
+    background-image: linear-gradient(45deg, #f1c40f 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+    background-color: white;
+    border-radius: 25px;
+  }
+  .join:hover {
+    background-position: 0;
+  }
+
+
+.discover {
+    border-color: #f1c40f;
+    color: rgb(0, 0, 0);
+    background-image: -webkit-linear-gradient(45deg, #f1c40f 50%, transparent 50%);
+    background-image: linear-gradient(45deg, #f1c40f 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+    background-color: white;
+    border-radius: 25px;
+  }
+  .discover:hover {
+    background-position: 0;
+  }
+
