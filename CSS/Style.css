@@ -196,14 +196,16 @@ nav li{
 
 
 .sectionThree{
-    background-image: url( './img/subtle-prism.svg' );
+    background-image: url( '../img/flat-mountains.svg' );
 
 }
 
 .journey{
     border-radius: 25px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 25%) 0px 54px 55px, rgb(0 0 0 / 12%) 0px -12px 30px, rgb(0 0 0 / 12%) 0px 4px 6px, rgb(0 0 0 / 17%) 0px 12px 13px, rgb(0 0 0 / 9%) 0px -3px 5px;
 }
+
 
 .gallery{
     justify-content: center;
@@ -236,3 +238,11 @@ nav li{
 .socials-footer div img{
     padding: 20px;
 } 
+
+.participant-img{
+    width: 500px;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 25%) 0px 54px 55px, rgb(0 0 0 / 12%) 0px -12px 30px, rgb(0 0 0 / 12%) 0px 4px 6px, rgb(0 0 0 / 17%) 0px 12px 13px, rgb(0 0 0 / 9%) 0px -3px 5px;
+}
+}
