@@ -34,7 +34,7 @@ nav li{
 
 
 #sectionOne{
-        background-image: url( '../img/mountain-background.svg' );
+        background-image: url( './img/mountain-background.svg' );
         background-size: cover;
  
 }
@@ -196,7 +196,7 @@ nav li{
 
 
 .sectionThree{
-    background-image: url( '../img/subtle-prism.svg' );
+    background-image: url( './img/subtle-prism.svg' );
 
 }
 
